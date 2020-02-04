@@ -1,0 +1,190 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 25, 5, 461, 315
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Performance Analysis For Herringbone Groove bearing"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_DD,78,56,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_D,78,76,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AL,78,96,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AN,78,116,44,15,ES_AUTOHSCROLL
+    GROUPBOX        "Bearing specification£º",IDC_STATIC,7,39,140,101
+    GROUPBOX        "Output",IDC_STATIC,156,147,136,161
+    EDITTEXT        IDC_EDIT_AI,224,222,48,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Q,224,243,48,15,ES_AUTOHSCROLL
+    GROUPBOX        "Groove specification£º",IDC_STATIC,159,39,159,101
+    EDITTEXT        IDC_EDIT_M,250,56,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ALF,250,76,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RLGL,250,96,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CG,250,116,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DT,224,285,48,15,ES_AUTOHSCROLL
+    LTEXT           "Diameter of axis:",IDC_STATIC,14,57,55,13,
+                    SS_CENTERIMAGE,0,HIDC_STATIC
+    CONTROL         "Inner diameter:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,14,77,51,13
+    LTEXT           "Width:",IDC_STATIC,14,97,42,13
+    LTEXT           "Rotations:",IDC_STATIC,14,117,40,13
+    LTEXT           "mm",IDC_STATIC,127,56,16,10
+    LTEXT           "mm",IDC_STATIC,127,77,16,10
+    LTEXT           "mm",IDC_STATIC,127,98,17,10
+    LTEXT           "rpm",IDC_STATIC,127,119,16,10
+    LTEXT           "Number of  grooves  N:",IDC_STATIC,167,59,78,14
+    LTEXT           "Angle of groove ¦Á:",IDC_STATIC,167,78,71,14
+    LTEXT           "Ratio of  groove and ridge ¦Ã:",IDC_STATIC,167,93,74,18
+    LTEXT           "Groove depth  Cg:",IDC_STATIC,167,118,72,11
+    LTEXT           "mm",IDC_STATIC,297,118,14,10
+    LTEXT           "¡ã",IDC_STATIC,300,77,8,16
+    LTEXT           "Angle of displacement ¦Õ:",IDC_STATIC,162,217,57,17
+    LTEXT           "Flux:",IDC_STATIC,162,243,33,14
+    LTEXT           "Temperature rise:",IDC_STATIC,162,286,46,15
+    CTEXT           "Performance Analysis for Herringbone Groove Bearing ",
+                    IDC_STATIC,146,7,197,22,SS_CENTERIMAGE,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_EDIT_Q1,224,264,48,15,ES_AUTOHSCROLL
+    LTEXT           "Leakage rate:",IDC_STATIC,162,266,48,14
+    PUSHBUTTON      "CLEAR",IDC_CLEAR,373,120,40,18
+    GROUPBOX        "Lube oil specification£º",IDC_STATIC,7,146,140,96
+    LTEXT           "Viscocity:",IDC_STATIC,14,164,40,11
+    LTEXT           "Density:",IDC_STATIC,14,184,30,11
+    LTEXT           "Radiating coefficient:",IDC_STATIC,14,218,46,20
+    LTEXT           "Specific heat:",IDC_STATIC,14,204,51,11
+    EDITTEXT        IDC_EDIT_DEDA,68,160,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RO,68,181,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CO,68,201,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AS,68,221,44,15,ES_AUTOHSCROLL
+    LTEXT           "¡ã",IDC_STATIC,276,286,9,11
+    LTEXT           "cSt",IDC_STATIC,116,163,23,12
+    LTEXT           "g/cm3",IDC_STATIC,116,184,23,12
+    LTEXT           "J/kg¡¤K",IDC_STATIC,115,205,29,12
+    LTEXT           "¡ã",IDC_STATIC,278,221,10,12
+    EDITTEXT        IDC_EDIT_SUM2,224,201,48,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPSON2,224,159,48,15,ES_AUTOHSCROLL
+    LTEXT           "Eccentricity ratio¦Å:",IDC_STATIC,163,161,48,17
+    LTEXT           "Load W:",IDC_STATIC,162,202,30,14
+    LTEXT           "N",IDC_STATIC,277,202,12,10
+    LTEXT           "Eccentricity e:",IDC_STATIC,163,183,50,14
+    EDITTEXT        IDC_EDIT_E,224,180,48,15,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,277,181,12,10
+    EDITTEXT        IDC_EDIT_SUM,81,284,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EPSON,81,264,44,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "CALCULATE",IDC_CALCULATE,323,120,44,18
+    LTEXT           "Eccentricity ratio¦Å:",IDC_STATIC,34,265,44,19
+    LTEXT           "Load W:",IDC_STATIC,35,288,30,14
+    LTEXT           "N",IDC_STATIC,131,287,8,10
+    CONTROL         "Radio1",IDC_RADIO_EPSON,"Button",BS_AUTORADIOBUTTON,19,
+                    266,8,12
+    GROUPBOX        "Input£º",IDC_STATIC,7,249,140,59
+    CONTROL         "Radio2",IDC_RADIO_SUM,"Button",BS_AUTORADIOBUTTON,19,
+                    286,8,12
+    PUSHBUTTON      "EXIT",IDC_CANCEL,417,120,36,18
+    CONTROL         116,IDC_STATIC,"Static",SS_BITMAP,304,181,146,120
+    CONTROL         118,IDC_STATIC,"Static",SS_BITMAP,323,42,130,72
+    GROUPBOX        "Loading Option",IDC_STATIC,301,149,152,159
+    CONTROL         "STATIC",IDC_CHECK_STATIC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,325,162,41,13
+    CONTROL         "DYNAMIC",IDC_CHECK_DYNAMIC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,390,162,42,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        VERTGUIDE, 78
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP5             BITMAP  DISCARDABLE     "bitmap5.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "bitmap3.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
